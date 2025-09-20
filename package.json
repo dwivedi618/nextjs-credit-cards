@@ -1,5 +1,5 @@
 {
-  "name": "react-credit-cards-2",
+  "name": "react-credit-cards-3",
   "version": "1.0.3",
   "description": "Beautiful credit cards for your payment forms",
   "author": "AMARO Fashion <tech@amaro.com>",
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felquis/react-credit-cards-2.git"
+    "url": "git+https://github.com/dwivedi618/react-credit-cards-3.git"
   },
   "bugs": {
-    "url": "https://github.com/felquis/react-credit-cards-2/issues"
+    "url": "https://github.com/dwivedi618/react-credit-cards-3/issues"
   },
-  "homepage": "https://github.com/felquis/react-credit-cards-2#readme",
+  "homepage": "https://github.com/dwivedi618/react-credit-cards-3#readme",
   "license": "MIT",
   "main": "dist/lib/index.js",
   "module": "dist/es/index.js",
@@ -36,7 +36,7 @@
     "payment"
   ],
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "dependencies": {
     "credit-card-type": "^9.1.0",

@@ -1,45 +1,45 @@
 # React Credit Cards 2 - Community Package
 
-> This repository is a hard-fork from the original [react-credit-cards](https://github.com/amaroteam/react-credit-cards) package. The main purpose is to update dependencies, make it usable with React 17 and 18 and clear installation warnings.
+> This repository is a hard-fork from the original [react-credit-cards](https://github.com/amaroteam/react-credit-cards) package. The main purpose is to update dependencies, make it usable with React 17 , 18 and 19 and and clear installation warnings.
 
-[![NPM](https://img.shields.io/npm/v/react-credit-cards-2)](https://www.npmjs.com/package/react-credit-cards-2) [![BundleSize](https://img.shields.io/bundlephobia/min/react-credit-cards-2)](https://bundlephobia.com/package/react-credit-cards-2) [![Travis](https://travis-ci.org/amarofashion/react-credit-cards.svg?branch=master)](https://travis-ci.org/amarofashion/react-credit-cards) [![Maintainability](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/maintainability)](https://codeclimate.com/github/amarofashion/react-credit-cards/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/test_coverage)](https://codeclimate.com/github/amarofashion/react-credit-cards/test_coverage)
+[![NPM](https://img.shields.io/npm/v/react-credit-cards-3)](https://www.npmjs.com/package/react-credit-cards-3) [![BundleSize](https://img.shields.io/bundlephobia/min/react-credit-cards-3)](https://bundlephobia.com/package/react-credit-cards-3) [![Travis](https://travis-ci.org/amarofashion/react-credit-cards.svg?branch=master)](https://travis-ci.org/amarofashion/react-credit-cards) [![Maintainability](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/maintainability)](https://codeclimate.com/github/amarofashion/react-credit-cards/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/test_coverage)](https://codeclimate.com/github/amarofashion/react-credit-cards/test_coverage)
 
 A slick credit card component for React.
 
-![demo](https://raw.githubusercontent.com/felquis/react-credit-cards-2/master/docs/media/rccs.gif)
+![demo](https://raw.githubusercontent.com/dwivedi618/react-credit-cards-3/master/docs/media/rccs.gif)
 
 [Demo - CodeSandbox](https://ovvwzkzry9.codesandbox.io/)
 
 ### Install
 
 ```
-npm install --save react-credit-cards-2
+npm install --save react-credit-cards-3
 ```
 
 ### Usage
 
 ```tsx
-import React, { useState } from 'react';
-import Cards from 'react-credit-cards-2';
+import React, { useState } from "react";
+import Cards from "react-credit-cards-3";
 
 const PaymentForm = () => {
   const [state, setState] = useState({
-    number: '',
-    expiry: '',
-    cvc: '',
-    name: '',
-    focus: '',
+    number: "",
+    expiry: "",
+    cvc: "",
+    name: "",
+    focus: "",
   });
 
   const handleInputChange = (evt) => {
     const { name, value } = evt.target;
-    
+
     setState((prev) => ({ ...prev, [name]: value }));
-  }
+  };
 
   const handleInputFocus = (evt) => {
     setState((prev) => ({ ...prev, focus: evt.target.name }));
-  }
+  };
 
   return (
     <div>
@@ -63,20 +63,20 @@ const PaymentForm = () => {
       </form>
     </div>
   );
-}
+};
 
 export default PaymentForm;
 ```
 
-If you are using SASS, import the CSS `react-credit-cards-2/dist/lib/styles.scss` 
+If you are using SASS, import the CSS `react-credit-cards-3/dist/lib/styles.scss`
 
 Or you can import the CSS:  
-`import 'react-credit-cards-2/dist/es/styles-compiled.css';`
+`import 'react-credit-cards-3/dist/es/styles-compiled.css';`
 
 ### Features
 
 - We support all credit card issuers available in [credit-card-type](https://github.com/braintree/credit-card-type) plus
- Dankort, Laser, and Visa Electron.
+  Dankort, Laser, and Visa Electron.
 
 ## Props
 
@@ -143,32 +143,32 @@ Here's how you can get started developing locally:
 
 1. Clone this repo and link it to your global `node_modules`:
 
-      $ git clone https://github.com/felquis/react-credit-cards-2.git
+   $ git clone https://github.com/dwivedi618/react-credit-cards-3.git
 
-      $ cd react-credit-cards-2
+   $ cd react-credit-cards-3
 
-      $ npm install
+   $ npm install
 
-      $ npm link
+   $ npm link
 
 2. Download the demo source from [codesandbox](https://codesandbox.io/s/ovvwzkzry9).
 3. Unzip it to the desired directory.
 4. Install the dependencies
 
-    $ cd react-credit-cards-demo
+   $ cd react-credit-cards-demo
 
-    $ npm install
+   $ npm install
 
-    $ npm link react-credit-cards
+   $ npm link react-credit-cards
 
 5. On the `react-credit-cards` directory, start the watcher:
 
-    $ npm run watch
-    
+   $ npm run watch
+
 6. On the `react-credit-cards-demo` directory, start the demo app:
 
-    $ npm start
-    
+   $ npm start
+
 7. 🎉 Done! The demo app will be running on: `http://localhost:3000/`. Your local changes should be automatically reflected there.
 
 Check [npm-link](https://docs.npmjs.com/cli/link.html) for detailed instructions.
@@ -189,4 +189,5 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 This project is licensed under the [MIT License](LICENSE.md).
 
 ###### Made with ❤️ at [AMARO](https://amaro.com).
+
 ###### Maintained with ❤️ by the community
