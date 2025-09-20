@@ -2,25 +2,25 @@
 
 > This repository is a hard-fork from the original [react-credit-cards](https://github.com/amaroteam/react-credit-cards) package. The main purpose is to update dependencies, make it usable with NextJS 15 and React 17 , 18 and 19 and and clear installation warnings.
 
-[![NPM](https://img.shields.io/npm/v/react-credit-cards-3)](https://www.npmjs.com/package/react-credit-cards-3) [![BundleSize](https://img.shields.io/bundlephobia/min/react-credit-cards-3)](https://bundlephobia.com/package/react-credit-cards-3) [![Travis](https://travis-ci.org/amarofashion/react-credit-cards.svg?branch=master)](https://travis-ci.org/amarofashion/react-credit-cards) [![Maintainability](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/maintainability)](https://codeclimate.com/github/amarofashion/react-credit-cards/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/test_coverage)](https://codeclimate.com/github/amarofashion/react-credit-cards/test_coverage)
+[![NPM](https://img.shields.io/npm/v/nextjs-credit-cards)](https://www.npmjs.com/package/nextjs-credit-cards) [![BundleSize](https://img.shields.io/bundlephobia/min/nextjs-credit-cards)](https://bundlephobia.com/package/nextjs-credit-cards) [![Travis](https://travis-ci.org/amarofashion/react-credit-cards.svg?branch=master)](https://travis-ci.org/amarofashion/react-credit-cards) [![Maintainability](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/maintainability)](https://codeclimate.com/github/amarofashion/react-credit-cards/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/bb0aa1a6b782c3845f6a/test_coverage)](https://codeclimate.com/github/amarofashion/react-credit-cards/test_coverage)
 
 A slick credit card component for React.
 
-![demo](https://raw.githubusercontent.com/dwivedi618/react-credit-cards-3/master/docs/media/rccs.gif)
+![demo](https://raw.githubusercontent.com/dwivedi618/nextjs-credit-cards/master/docs/media/rccs.gif)
 
 [Demo - CodeSandbox](https://ovvwzkzry9.codesandbox.io/)
 
 ### Install
 
 ```
-npm install --save react-credit-cards-3
+npm install --save nextjs-credit-cards
 ```
 
 ### Usage
 
 ```tsx
 import React, { useState } from "react";
-import Cards from "react-credit-cards-3";
+import Cards from "nextjs-credit-cards";
 
 const PaymentForm = () => {
   const [state, setState] = useState({
@@ -68,10 +68,10 @@ const PaymentForm = () => {
 export default PaymentForm;
 ```
 
-If you are using SASS, import the CSS `react-credit-cards-3/dist/lib/styles.scss`
+If you are using SASS, import the CSS `nextjs-credit-cards/dist/lib/styles.scss`
 
 Or you can import the CSS:  
-`import 'react-credit-cards-3/dist/es/styles-compiled.css';`
+`import 'nextjs-credit-cards/dist/es/styles-compiled.css';`
 
 ### Features
 
@@ -143,9 +143,9 @@ Here's how you can get started developing locally:
 
 1. Clone this repo and link it to your global `node_modules`:
 
-   $ git clone https://github.com/dwivedi618/react-credit-cards-3.git
+   $ git clone https://github.com/dwivedi618/nextjs-credit-cards.git
 
-   $ cd react-credit-cards-3
+   $ cd nextjs-credit-cards
 
    $ npm install
 
